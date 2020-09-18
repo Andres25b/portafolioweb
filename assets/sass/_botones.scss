@@ -1,0 +1,22 @@
+.button {
+	display: inline-block;
+	background-color: $first-color;
+	color: $first-color-light;
+	padding: 1rem 2rem;
+	font-weight: $font-bold;
+	border-radius: 0.5rem;
+	transition: 0.3s;
+
+	&:hover {
+		background-color: $first-color-dark;
+	}
+}
+
+.button_light {
+	background-color: $first-color-lighten;
+	color: $first-color;
+
+	&:hover {
+		color: $first-color-lighten;
+	}
+}

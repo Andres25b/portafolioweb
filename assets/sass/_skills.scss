@@ -1,0 +1,68 @@
+.skills__container {
+	right: 2rem;
+
+	.skills__subtitle {
+		font-size: $h3-font-size;
+		color: $first-color-dark;
+		margin-bottom: $mb-2;
+	}
+
+	.skills__data {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		margin: 0 $mb-2;
+		margin-bottom: $mb-4;
+
+		.skills__name {
+			text-transform: uppercase;
+		}
+
+		.skills__bar {
+			position: absolute;
+			bottom: -0.75rem;
+			height: 0.25rem;
+			background-color: $first-color;
+		}
+
+		.skills__html {
+			width: 80%;
+		}
+
+		.skills__sass {
+			width: 80%;
+		}
+
+		.skills__js {
+			width: 85%;
+		}
+
+		.skills__react {
+			width: 70%;
+		}
+
+		.skills__angular {
+			width: 75%;
+		}
+
+		.skills__node {
+			width: 85%;
+		}
+
+		.skills__mysql {
+			width: 80%;
+		}
+
+		.skills__mongodb {
+			width: 80%;
+		}
+
+		.skills__git {
+			width: 70%;
+		}
+
+		.skills__adobexd {
+			width: 65%;
+		}
+	}
+}

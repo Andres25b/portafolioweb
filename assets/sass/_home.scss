@@ -1,0 +1,61 @@
+.home__container {
+	height: calc(100vh - (#{$header-height}));
+	align-items: center;
+
+	.home__data {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: max-content;
+		text-align: center;
+
+		.home__img {
+			padding-top: 0.8rem;
+			width: 160px;
+			height: 160px;
+			background-color: $first-color;
+			border-radius: 50%;
+			overflow: hidden;
+			margin-bottom: $mb-2;
+
+			img {
+				width: 155px;
+			}
+		}
+
+		.home__title {
+			font-size: $h1-font-size;
+			color: $first-color;
+			font-weight: $font-semi-bold;
+		}
+
+		.home__profession {
+			font-size: $small-font-size;
+			color: $first-color-dark;
+			margin-bottom: $mb-5;
+		}
+
+		.home__social {
+			margin-bottom: 5rem;
+
+			.home__social-link {
+				display: inline-flex;
+				background-color: $first-color;
+				color: $first-color-lighten;
+				font-size: 1.1rem;
+				border-radius: 50%;
+				padding: 0.4rem;
+				margin: 0 $mb-1;
+				transition: 0.3s;
+
+				&:hover {
+					background-color: $first-color-darken;
+				}
+			}
+		}
+
+		.home_button {
+			width: 100%;
+		}
+	}
+}
