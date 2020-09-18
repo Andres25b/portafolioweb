@@ -1,0 +1,23 @@
+{
+	"name": "poratafolioweb",
+	"version": "1.0.0",
+	"description": "Este es el portafolio web de José Andrés Herrera Alcantar",
+	"main": "index.js",
+	"scripts": {
+		"start": "node server/server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Andres25b/portafolioweb.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Andres25b/portafolioweb/issues"
+	},
+	"homepage": "https://github.com/Andres25b/portafolioweb#readme",
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}
